@@ -1,4 +1,4 @@
-# Juliya Yukevich
+# Julia Yukevich
 
 ## Contact info
 
@@ -33,7 +33,7 @@ function multiply(a, b){
 
 ## Education
 
-- University: Belarusion State University
+- University: Belarusian State University
 - Course: [RS Schools Course «JavaScript/Front-end. Stage 0»](https://rs.school/js/) (in progress)
 
 ## Languages
