@@ -9,12 +9,31 @@
 
 ## About
 
+I'm an open-minded and easygoing person. I have no IT background but I'm ready to dive into the IT world by learning Front-End Development at RSSchool.
+
 ## Skills
+
+- HTML
+- CSS
+- Git
 
 ## Code
 
+```JavaScript
+function multiply(a, b){
+  return a * b
+}
+```
+
 ## Experience
 
+- Obstetrician: 10 years
+- Real estate agent: 1 year
+- Product manager: 1 year
+
 ## Education
+
+- University: Belarusion State University
+- Course: [RS Schools Course «JavaScript/Front-end. Stage 0»](https://rs.school/js/) (in progress)
 
 ## English
