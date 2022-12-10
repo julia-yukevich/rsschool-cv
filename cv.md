@@ -37,3 +37,8 @@ function multiply(a, b){
 - Course: [RS Schools Course «JavaScript/Front-end. Stage 0»](https://rs.school/js/) (in progress)
 
 ## Languages
+
+- Belarusian: native
+- Russian: native
+- Polish: C1
+- English: A1+
