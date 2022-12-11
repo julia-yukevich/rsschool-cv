@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  text-align: start;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+h2 {
+  font-size: x-large;
+}
+
+p {
+  font-size: medium;
+}
+
+JavaScript,
+pre {
+  background-color: rgb(240, 240, 240);
+  font-size: small;
+}
