@@ -6,52 +6,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap" rel="stylesheet">
     <title>CV</title>
 </head>
 
 <body>
-    <h1 id="julia-yukevich">Julia Yukevich</h1>
-    <h2 id="contact-info">Contact info</h2>
-    <ul>
-        <li>Location: <a href="https://www.google.com/maps/place/Gda%C5%84sk/@54.3610873,18.6900271">Gdańsk, Poland</a>
-        </li>
-        <li>Discord: <a href="https://discordapp.com/users/julia-yukevich#7099">julia-yukevich#7099</a></li>
-        <li>GitHub: <a href="https://github.com/julia-yukevich">julia-yukevich</a></li>
-        <li>Email: <a href="mailto:julia.yukevich@gmail.com">julia.yukevich@gmail.com</a></li>
-    </ul>
-    <h2 id="about">About</h2>
-    <p>I am an open-minded and easygoing person. I have no IT background but I am ready to dive into the IT world by
-        learning Front-End Development at RSSchool.</p>
-    <h2 id="skills">Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Git</li>
-    </ul>
-    <h2 id="code">Code</h2>
-    <pre><span>function multiply(a, b){
-    return a * b
-    }</span>
-    </pre>
-    <h2 id="experience">Experience</h2>
-    <ul>
-        <li>Obstetrician: 10 years</li>
-        <li>Real estate agent: 1 year</li>
-        <li>Product manager: 1 year</li>
-    </ul>
-    <h2 id="education">Education</h2>
-    <ul>
-        <li>University: Belarusian State University</li>
-        <li>Course: <a href="https://rs.school/js/">RS Schools Course «JavaScript/Front-end. Stage 0»</a> (in progress)
-        </li>
-    </ul>
-    <h2 id="languages">Languages</h2>
-    <ul>
-        <li>Belarusian: native</li>
-        <li>Russian: native</li>
-        <li>Polish: C1</li>
-        <li>English: A1+</li>
-    </ul>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#code" class="nav-link">Code</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img class="photo" src="./assets/photo.jpg" alt="my photo" width="200">
+                <div>
+                    <h1 class="section-title section-main-title">Julia Yukevich</h1>
+                    <h3 class="section-main-subtitle">Junior Front-End Developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item">Location: <a
+                            href="https://www.google.com/maps/place/Gda%C5%84sk/@54.3610873,18.6900271">Gdańsk,
+                            Poland</a></li>
+                    <li class="section-item">Discord: <a
+                            href="https://discordapp.com/users/julia-yukevich#7099">julia-yukevich#7099</a></li>
+                    <li class="section-item">GitHub: <a href="https://github.com/julia-yukevich">julia-yukevich</a></li>
+                    <li class="section-item">Email: <a
+                            href="mailto:julia.yukevich@gmail.com">julia.yukevich@gmail.com</a></li>
+                </ul>
+            </section>
+            <section class="section" id="about">
+                <h2 class="section-title">About</h2>
+                <p>I am an open-minded and easygoing person. I have no IT background but I am ready to dive into the IT
+                    world by
+                    learning Front-End Development at RSSchool.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">HTML</li>
+                    <li class="section-item">CSS</li>
+                    <li class="section-item">Git</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <div class="code">
+                    <pre class="pre">
+                        <code>
+    function multiply(a, b){
+        return a * b
+    }</code>
+                    </pre>
+                </div>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <ul class="section-list">
+                    <li class="section-item">Obstetrician: <em>10 years</em></li>
+                    <li class="section-item">Real estate agent: <em>1 year</em></li>
+                    <li class="section-item">Product manager: <em>1 year</em></li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="section-list">
+                    <li class="section-item">University: <em>Belarusian State University</em></li>
+                    <li class="section-item">Course: <em><a href="https://rs.school/js/">RS Schools Course
+                                «JavaScript/Front-end. Stage 0»</a> (in progress)</em></li>
+                </ul>
+            </section>
+            <section class="section section-language" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list">
+                    <li class="section-item">Belarusian: <em>native</em></li>
+                    <li class="section-item">Russian: <em>native</em></li>
+                    <li class="section-item">Polish: <em>C1</em></li>
+                    <li class="section-item">English: <em>A1+</em></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>@ 2022<a href="https://github.com/julia-yukevich" target="_blank" class="nav-link">Julia Yukevich</a>
+            </div>
+            <a href="https://rs.school/js/" class="rs-school"></a>
+        </div>
+    </footer>
 </body>
 
 </html>
