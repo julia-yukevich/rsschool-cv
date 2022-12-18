@@ -19,3 +19,36 @@ body {
   line-height: 1.5;
   color: #432c2c;
 }
+
+.header {
+  background-color: #73a0a8;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 18px;
+  line-height: 20px;
+  transition: 0.3s;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #f6fff7;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: #432c2c;
+  transition: color 0.5s;
+}
