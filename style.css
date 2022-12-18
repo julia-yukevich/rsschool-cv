@@ -154,3 +154,12 @@ body {
   border-radius: 20%;
   box-shadow: 0 1px 4px rgb(0 0 0 / 50%);
 }
+
+.pre {
+  padding: 0;
+  margin: 0;
+}
+
+.code {
+  background-color: #eeeef0;
+}
